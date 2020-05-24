@@ -22,7 +22,13 @@ def output_array(array)
   end 
 end
 
-def return_string_away
-  
+def return_string_away(arrray)
+  count = 0
+  new_array -[]
+  while count < array.length do
+    new_array.push(array[count].to_s) 
+    count += 1 
+  end
+  new_array 
 end
 
